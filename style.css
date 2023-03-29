@@ -9,6 +9,33 @@ body {
     src: url(fontes/Adventpro/static/AdventPro/AdventPro-Bold.ttf);
 }
 
-.inicial {
+.LGZV7 {
+    margin-top: 300px;
+    width: 165px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.Bcontinuar {
+    width: 225px;
+}
+
+.bemvindo {
+    margin-top: 275px;
+    font-size: 60px;
+    background: linear-gradient(to bottom, #ff1100 0%, #FFFF00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.aviso {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     width: 100%;
+    background-color: #00FFFF;
+    color: #ffffff;
 }
