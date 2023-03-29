@@ -1,0 +1,14 @@
+body {
+    background-color: #000000;
+    font-family: AdventPro;
+    text-align: center;
+}
+
+@font-face {
+    font-family: AdventPro;
+    src: url(fontes/Adventpro/static/AdventPro/AdventPro-Bold.ttf);
+}
+
+.inicial {
+    width: 100%;
+}

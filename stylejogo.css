@@ -1,0 +1,230 @@
+body {background-color: #000000;
+    font-family: AdventPro;
+    text-align: center;
+}
+
+p {
+    font-family: Arial;
+}
+
+@font-face {
+    font-family: AdventPro;
+    src: url(fontes/Adventpro/static/AdventPro/AdventPro-Bold.ttf);
+}
+
+.bordaDesafio {
+    background: linear-gradient(black, black) padding-box, linear-gradient(to bottom right, #DD1F1A, #FFFF00) border-box;
+    border-radius: 25px;
+    border: solid transparent;
+    padding: 20px;
+    width: 245px;
+    height: 350px;
+    margin: auto;
+
+    /* Deixar no meio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.buttonF {
+    display: inline-block;
+    padding: 12px 24px;
+    border: transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.buttonF:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.buttonF:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #39bda7;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.buttonF:hover {
+    color: #ffffff;
+    border: 1px transparent;
+}
+
+.buttonF:hover:before {
+    top: -35%;
+    background-color: #00FF00;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.buttonF:hover:after {
+    top: -45%;
+    background-color: #1ac91a;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.buttonB {
+    display: inline-block;
+    padding: 12px 24px;
+    border: transparent;
+    border-radius: 4px;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    font-size: 19px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.buttonB:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.buttonB:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: #000000;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+}
+
+.buttonB:hover {
+    color: #ffffff;
+    border: 1px transparent;
+}
+
+.buttonB:hover:before {
+    top: -35%;
+    background-color: #990e0e;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+.buttonB:hover:after {
+    top: -45%;
+    background-color: #FF0000;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.topo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.topo img:first-child {
+    margin-left: 123px;
+    height: 80px;
+    max-height: 100%;
+}
+
+.topo img:last-child {
+    margin-right: 30px;
+    float: right;
+}
+
+@media screen and (max-width: 773px) {
+    .topo img:last-child {
+        display: none;
+    }
+}
+
+.dadofogo {
+   text-align: center;
+}
+
+.dadofogo img:first-child {
+    width: 200px;
+    max-width: 100%;
+}
+
+.dadofogo img:first-child {
+    cursor:grab;
+}
+
+.aviso {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: #00FFFF;
+    color: #ffffff;
+}
+
+
+img {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+img:hover {
+    transform:scale(1.1);
+    transition-delay: 0.1s;
+}
+
+/* .meno {
+    background-color: transparent;
+    color: #FFF;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+.meno:hover {
+    background-color: #FFF;
+    color: #000000;
+}
+
+.meno {
+    float: left;
+}*/

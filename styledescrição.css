@@ -1,0 +1,94 @@
+body {background-color: #000000;
+    font-family: AdventPro;
+    text-align: center;
+}
+
+@font-face {
+    font-family: AdventPro;
+    src: url(fontes/Adventpro/static/AdventPro/AdventPro-Bold.ttf);
+}
+
+.bemvindo {
+    font-size: 90px;
+    background: linear-gradient(to bottom, #ff1100 0%, #FFFF00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    color: #ffffffe5;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.topo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.topo img:first-child {
+    margin-left: 123px;
+    height: 80px;
+    max-height: 100%;
+}
+
+.topo img:last-child {
+    margin-right: 30px;
+    float: right;
+}
+
+@media screen and (max-width: 790px) {
+    .topo img:last-child {
+        display: none;
+    }
+}
+
+.desceuma {
+    width: 400px;
+    margin-top: 150px;
+}
+
+.aviso {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    background-color: #00FFFF;
+    color: #ffffff;
+}
+
+
+img {
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+img:hover {
+    transform:scale(1.1);
+    transition-delay: 0.1s;
+}
+
+/* .meno {
+    background-color: transparent;
+    color: #FFF;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+
+.meno:hover {
+    background-color: #FFF;
+    color: #000000;
+}
+
+.meno {
+    float: left;
+}*/
