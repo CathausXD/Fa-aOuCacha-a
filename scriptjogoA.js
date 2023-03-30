@@ -39,17 +39,17 @@ function generateChallenge() {
 function Fez() {
   // Atualize a pontuação
   let scores = document.getElementById("Feito").innerHTML;
-  scores = parseInt(scores.replace("FAÇA: ", ""));
+  scores = parseInt(scores.replace("Fez: ", ""));
   scores += 1;
-    document.getElementById("Feito").innerHTML = "FAÇA: " + scores;
+    document.getElementById("Feito").innerHTML = "Fez: " + scores;
 }
 
 function NFez() {
   // Atualize a pontuação
   let scores = document.getElementById("Bebido").innerHTML;
-  score = parseInt(scores.replace("CACHAÇA: ", ""));
+  score = parseInt(scores.replace("Bebeu: ", ""));
   score += 1;
-  document.getElementById("Bebido").innerHTML = "CACHAÇA: " + score;
+  document.getElementById("Bebido").innerHTML = "Bebeu: " + score;
 }
 
 document

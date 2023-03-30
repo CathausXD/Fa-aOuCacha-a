@@ -13,16 +13,16 @@ p {
 }
 
 .logo {
-    width: 300px;
+    width: 900px;
 }
 
 .bordaDesafio {
-    background: linear-gradient(black, black) padding-box, linear-gradient(to bottom right, #DD1F1A, #FFFF00) border-box;
+    /*background: linear-gradient(black, black) padding-box, linear-gradient(to bottom right, #DD1F1A, #FFFF00) border-box;*/
     border-radius: 25px;
-    border: solid transparent;
+    border: 17px solid #FFFFFF;
     padding: 20px;
-    width: 245px;
-    height: 350px;
+    width: 775px;
+    height: 1000px;
     margin: auto;
 
     /* Deixar no meio */
@@ -40,7 +40,7 @@ p {
     transition: all 0.2s ease-in;
     position: relative;
     overflow: hidden;
-    font-size: 19px;
+    font-size: 85px;
     background-color: #000000;
     color: rgb(255, 255, 255);
     z-index: 1;
@@ -101,7 +101,7 @@ p {
     transition: all 0.2s ease-in;
     position: relative;
     overflow: hidden;
-    font-size: 19px;
+    font-size: 85px;
     background-color: #000000;
     color: rgb(255, 255, 255);
     z-index: 1;
@@ -159,7 +159,7 @@ p {
 }
 
 .dadofogo img:first-child {
-    width: 150px;
+    width: 360px;
     max-width: 100%;
 }
 
